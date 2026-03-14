@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  telegram-bot:
+    build: .
+    container_name: telegram-geto-bot
+    restart: unless-stopped
+    volumes:
+      - ./data:/var/www/html/data
+      - ./geto.log:/var/www/html/geto.log
+    environment:
+      - BOT_TOKEN=${BOT_TOKEN}
+      - OWNER_ID=${OWNER_ID}
+    ports:
+      - "10000:10000"

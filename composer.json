@@ -1,0 +1,9 @@
+{
+    "name": "telegram/geto-bot",
+    "description": "Telegram Geto Bot",
+    "type": "project",
+    "require": {},
+    "scripts": {
+        "start-bot": "python3 index.py"
+    }
+}
