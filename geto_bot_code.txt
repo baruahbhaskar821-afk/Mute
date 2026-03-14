@@ -6,8 +6,8 @@ filters
 ================= CONFIG =================
 
 BOT_TOKEN = os.environ.get(“BOT_TOKEN”,
-“8492847488:AAEk51G4Kqy-Ft4OtxyqlAeKXllwVqFGZNQ”) OWNER_ID =
-int(os.environ.get(“OWNER_ID”, 7616709190)) DATA_FILE =
+“8799947913:AAEHZfbm1z5ReIsQkBMBxdknX9ObEu08VaY”) OWNER_ID =
+int(os.environ.get(“OWNER_ID”, 8568230592)) DATA_FILE =
 “data/users.json”
 
 Ensure data directory exists
