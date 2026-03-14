@@ -99,7 +99,7 @@ async def main():
 
     print("GETO BOT RUNNING")
 
-    app = Application.builder().token(BOT_TOKEN).build()
+    app = Application.builder().token(8799947913:AAEHZfbm1z5ReIsQkBMBxdknX9ObEu08VaY).build()
 
     await app.initialize()
     await app.start()
