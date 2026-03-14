@@ -5,7 +5,9 @@ filters
 
 ================= CONFIG =================
 
-BOT_TOKEN = os.environ.get(“BOT_TOKEN”,
+import os
+
+BOT_TOKEN = os.environ.get("BOT_TOKEN")
 “8799947913:AAEHZfbm1z5ReIsQkBMBxdknX9ObEu08VaY”) OWNER_ID =
 int(os.environ.get(“OWNER_ID”, 8568230592)) DATA_FILE =
 “data/users.json”
